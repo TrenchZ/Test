@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0DC3F71B4268880095BA5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0DC3F61B4268880095BA5C /* main.m */; };
+		BC0DC3FA1B4268880095BA5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0DC3F91B4268880095BA5C /* AppDelegate.m */; };
+		BC0DC3FD1B4268880095BA5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0DC3FC1B4268880095BA5C /* ViewController.m */; };
+		BC0DC4001B4268880095BA5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0DC3FE1B4268880095BA5C /* Main.storyboard */; };
+		BC0DC4021B4268880095BA5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0DC4011B4268880095BA5C /* Images.xcassets */; };
+		BC0DC4051B4268880095BA5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0DC4031B4268880095BA5C /* LaunchScreen.xib */; };
+		BC0DC4111B4268880095BA5C /* UI2_____buttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0DC4101B4268880095BA5C /* UI2_____buttonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC0DC40B1B4268880095BA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC0DC3E91B4268880095BA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC0DC3F01B4268880095BA5C;
+			remoteInfo = "UI2_国际象棋button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC0DC3F11B4268880095BA5C /* UI2_国际象棋button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI2_国际象棋button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0DC3F51B4268880095BA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0DC3F61B4268880095BA5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC0DC3F81B4268880095BA5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC0DC3F91B4268880095BA5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC0DC3FB1B4268880095BA5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC0DC3FC1B4268880095BA5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC0DC3FF1B4268880095BA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC0DC4011B4268880095BA5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC0DC4041B4268880095BA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC0DC40A1B4268880095BA5C /* UI2_国际象棋buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI2_国际象棋buttonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0DC40F1B4268880095BA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0DC4101B4268880095BA5C /* UI2_____buttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI2_____buttonTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0DC3EE1B4268880095BA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0DC4071B4268880095BA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0DC3E81B4268880095BA5C = {
+			isa = PBXGroup;
+			children = (
+				BC0DC3F31B4268880095BA5C /* UI2_国际象棋button */,
+				BC0DC40D1B4268880095BA5C /* UI2_国际象棋buttonTests */,
+				BC0DC3F21B4268880095BA5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0DC3F21B4268880095BA5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0DC3F11B4268880095BA5C /* UI2_国际象棋button.app */,
+				BC0DC40A1B4268880095BA5C /* UI2_国际象棋buttonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0DC3F31B4268880095BA5C /* UI2_国际象棋button */ = {
+			isa = PBXGroup;
+			children = (
+				BC0DC3F81B4268880095BA5C /* AppDelegate.h */,
+				BC0DC3F91B4268880095BA5C /* AppDelegate.m */,
+				BC0DC3FB1B4268880095BA5C /* ViewController.h */,
+				BC0DC3FC1B4268880095BA5C /* ViewController.m */,
+				BC0DC3FE1B4268880095BA5C /* Main.storyboard */,
+				BC0DC4011B4268880095BA5C /* Images.xcassets */,
+				BC0DC4031B4268880095BA5C /* LaunchScreen.xib */,
+				BC0DC3F41B4268880095BA5C /* Supporting Files */,
+			);
+			path = "UI2_国际象棋button";
+			sourceTree = "<group>";
+		};
+		BC0DC3F41B4268880095BA5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC0DC3F51B4268880095BA5C /* Info.plist */,
+				BC0DC3F61B4268880095BA5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC0DC40D1B4268880095BA5C /* UI2_国际象棋buttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC0DC4101B4268880095BA5C /* UI2_____buttonTests.m */,
+				BC0DC40E1B4268880095BA5C /* Supporting Files */,
+			);
+			path = "UI2_国际象棋buttonTests";
+			sourceTree = "<group>";
+		};
+		BC0DC40E1B4268880095BA5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC0DC40F1B4268880095BA5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0DC3F01B4268880095BA5C /* UI2_国际象棋button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0DC4141B4268880095BA5C /* Build configuration list for PBXNativeTarget "UI2_国际象棋button" */;
+			buildPhases = (
+				BC0DC3ED1B4268880095BA5C /* Sources */,
+				BC0DC3EE1B4268880095BA5C /* Frameworks */,
+				BC0DC3EF1B4268880095BA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI2_国际象棋button";
+			productName = "UI2_国际象棋button";
+			productReference = BC0DC3F11B4268880095BA5C /* UI2_国际象棋button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC0DC4091B4268880095BA5C /* UI2_国际象棋buttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0DC4171B4268880095BA5C /* Build configuration list for PBXNativeTarget "UI2_国际象棋buttonTests" */;
+			buildPhases = (
+				BC0DC4061B4268880095BA5C /* Sources */,
+				BC0DC4071B4268880095BA5C /* Frameworks */,
+				BC0DC4081B4268880095BA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC0DC40C1B4268880095BA5C /* PBXTargetDependency */,
+			);
+			name = "UI2_国际象棋buttonTests";
+			productName = "UI2_国际象棋buttonTests";
+			productReference = BC0DC40A1B4268880095BA5C /* UI2_国际象棋buttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0DC3E91B4268880095BA5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					BC0DC3F01B4268880095BA5C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BC0DC4091B4268880095BA5C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BC0DC3F01B4268880095BA5C;
+					};
+				};
+			};
+			buildConfigurationList = BC0DC3EC1B4268880095BA5C /* Build configuration list for PBXProject "UI2_国际象棋button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC0DC3E81B4268880095BA5C;
+			productRefGroup = BC0DC3F21B4268880095BA5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0DC3F01B4268880095BA5C /* UI2_国际象棋button */,
+				BC0DC4091B4268880095BA5C /* UI2_国际象棋buttonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0DC3EF1B4268880095BA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0DC4001B4268880095BA5C /* Main.storyboard in Resources */,
+				BC0DC4051B4268880095BA5C /* LaunchScreen.xib in Resources */,
+				BC0DC4021B4268880095BA5C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0DC4081B4268880095BA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0DC3ED1B4268880095BA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0DC3FD1B4268880095BA5C /* ViewController.m in Sources */,
+				BC0DC3FA1B4268880095BA5C /* AppDelegate.m in Sources */,
+				BC0DC3F71B4268880095BA5C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0DC4061B4268880095BA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0DC4111B4268880095BA5C /* UI2_____buttonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC0DC40C1B4268880095BA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC0DC3F01B4268880095BA5C /* UI2_国际象棋button */;
+			targetProxy = BC0DC40B1B4268880095BA5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC0DC3FE1B4268880095BA5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0DC3FF1B4268880095BA5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC0DC4031B4268880095BA5C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0DC4041B4268880095BA5C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0DC4121B4268880095BA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC0DC4131B4268880095BA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0DC4151B4268880095BA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI2_国际象棋button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC0DC4161B4268880095BA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI2_国际象棋button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC0DC4181B4268880095BA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UI2_国际象棋buttonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI2_国际象棋button.app/UI2_国际象棋button";
+			};
+			name = Debug;
+		};
+		BC0DC4191B4268880095BA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UI2_国际象棋buttonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI2_国际象棋button.app/UI2_国际象棋button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0DC3EC1B4268880095BA5C /* Build configuration list for PBXProject "UI2_国际象棋button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0DC4121B4268880095BA5C /* Debug */,
+				BC0DC4131B4268880095BA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0DC4141B4268880095BA5C /* Build configuration list for PBXNativeTarget "UI2_国际象棋button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0DC4151B4268880095BA5C /* Debug */,
+				BC0DC4161B4268880095BA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC0DC4171B4268880095BA5C /* Build configuration list for PBXNativeTarget "UI2_国际象棋buttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0DC4181B4268880095BA5C /* Debug */,
+				BC0DC4191B4268880095BA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0DC3E91B4268880095BA5C /* Project object */;
+}
